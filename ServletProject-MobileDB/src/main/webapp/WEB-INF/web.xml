@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  <servlet-name>Add</servlet-name>
+  <servlet-class>com.jsp.servlet.mobiledb.Add_Mobile_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>Update</servlet-name>
+  <servlet-class>com.jsp.servlet.mobiledb.Update_Mobile_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>Delete</servlet-name>
+  <servlet-class>com.jsp.servlet.mobiledb.Delete_Mobile_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>Find</servlet-name>
+  <servlet-class>com.jsp.servlet.mobiledb.Find_Mobile_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Add</servlet-name>
+  <url-pattern>/add-mobile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Update</servlet-name>
+  <url-pattern>/update-mobile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Delete</servlet-name>
+  <url-pattern>/delete-mobile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Find</servlet-name>
+  <url-pattern>/find-mobile</url-pattern>
+  </servlet-mapping>
+</web-app>
